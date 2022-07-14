@@ -8,3 +8,4 @@ function getLocalStorage(key) {
 $(document).ready(function () {
     $("#currentDay").text(moment().format("dddd, MMMM Do"));
     $("#currentDay").css("text-decoration", "underline");
+    for (let i = 9; i < 18; i++) 
