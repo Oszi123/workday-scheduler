@@ -8,4 +8,4 @@
 ##JavaScript
 ##Bootsrap
 
-![screenshot(")<img width="1440" alt="workday-scheduler" src="https://user-images.githubusercontent.com/106827018/179043586-ca0cd271-54d6-4d33-90c0-061df01d23ec.png">
+<img width="1440" alt="workday-scheduler" src="https://user-images.githubusercontent.com/106827018/179043586-ca0cd271-54d6-4d33-90c0-061df01d23ec.png">
