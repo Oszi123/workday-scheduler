@@ -30,5 +30,26 @@ $(document).ready(function () {
 
         $(".container").append(row);
 
+        getLocalStorage(i);
+    }
 
+    function amPm(hours) {
+        var ampm = hours >= 12 ? 'PM' : 'AM';
+        hours = hours % 12;
+        hours = hours ? hours : 12;
+        return hours + ampm;
+    }
+    amPm();
+
+
+    function updateColors() {
+        var currentTime = new Date().getHours();
+        for (var i = 9; i < 18; i++) {
+            if ($(`#${i}`).data("time") == currentTime) {
+                $(`#text${i}`).addClass("present");
+            } else if (currentTime < $(`#${i}`).data("time")) {
+                $(`#text${i}`).addClass("future");
+            }
+        }
+    }
 
