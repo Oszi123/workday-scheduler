@@ -21,3 +21,14 @@ $(document).ready(function () {
 
 
         var col3 = $(`<div class="col-sm-2"><button class="saveBtn" id=${i}><i class="fas fa-save"></i></button>`)
+
+
+        row.append(col1);
+        row.append(col2);
+        row.append(col3);
+
+
+        $(".container").append(row);
+
+
+

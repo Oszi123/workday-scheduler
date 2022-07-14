@@ -11,13 +11,13 @@ textarea {
   border: none;
   resize: none;
   color: white;
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(60, 60, 60);
   padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: rgb(139, 169, 175);
+  background-color: rgb(81, 84, 88);
   color: white;
   border-radius: 0;
   border-bottom: 10px solid black;
